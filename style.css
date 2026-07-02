@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.568);
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    display: flex;
+    gap: 120px;
+    font-size: 9px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    padding: 30px;
+}
+
+.menu {
+    display: flex;
+    width: 1500px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 254, 254, 0.178);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.281);
+    gap: 50px;
+    border-radius: 15px;
+    margin-top: 90px;
+    font-size: 20px;
+}
+
+.pictur {
+    margin-top: -160px;
+}
+
+.container1 {
+    display: flex;
+    background-color: rgba(169, 169, 169, 0.205);
+    flex-direction: column;
+    width: 100%;
+    padding: 100px;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.452);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.281);
+
+
+}
+
+.hokimyat {
+    font-size: 45px;
+    color: rgb(19, 19, 83);
+    margin-top: 50px;
+}
+
+.title {
+    color: rgb(19, 19, 83);
+    font-size: 30px;
+}
+
+.malumot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    gap: 50px;
+    margin-bottom: 100px;
+    line-height: 45px;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.452);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.568);
+}
+
+.carta {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.568);
+    border-radius: 10px;
+    gap: 80px;
+    padding: 40px;
+    margin-top: 40px;
+}
+
+.card img {
+    width: 300px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card {
+    display: flex;
+    background-color: rgba(169, 169, 169, 0.205);
+    gap: 50px;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.452);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.568);
+    padding: 30px;
+}
+
+.text {
+    line-height: 35px;
+}
+
+.madhiya {
+    display: flex;
+    flex-direction: column;
+    padding-left: 700px;
+    padding-right: 700px;
+    text-align: left;
+    line-height: 50px;
+    margin-top: 100px;
+}
+
+.btn {
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.568);
+    border-radius: 10px;
+    border: none;
+}
+
+h2 {
+    display: none;
+}
+
+.btn:hover .madhiya {
+    display: none;
+}
+
+.btn:hover {
+    display: block;
+    cursor: pointer;
+}
+
+.grid {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.568);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.452);
+    gap: 70px;
+    padding: 40px;
+    line-height: 50px;
+}
+
+.section {
+    width: 100%;
+    height: 100vh;
+    margin-top: 50px;
+
+}
+
+.cars {
+    width: 100%;
+    height: 100vh;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.park {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.452);
+    padding: 20px;
+}
+
+.textt {
+    display: flex;
+    align-items: center;
+    line-height: 45px;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.568);
+    gap: 70px;
+    padding: 40px;
+    width: 100%;
+}
+
+.car {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.kafe{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.school{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
